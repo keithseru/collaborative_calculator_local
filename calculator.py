@@ -19,6 +19,19 @@ def get_numbers():
     return numbers
 
 
+def add_numbers(numbers):
+    """
+    Add all numbers in the list
+
+    Args:
+        numbers(list): List of numbers to add
+
+    Returns:
+        float: Sum of all numbers
+    """
+    return sum(numbers)
+
+
 def main():
     """
     main function to run the calculator
