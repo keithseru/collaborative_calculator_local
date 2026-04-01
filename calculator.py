@@ -20,7 +20,16 @@ def get_numbers():
 
 
 def add_numbers(numbers):
-    pass
+    """
+    Add all numbers in the list
+
+    Args:
+        numbers(list): List of numbers to add
+
+    Returns:
+        float: Sum of all numbers
+    """
+    return sum(numbers)
 
 
 def main():
